@@ -1,0 +1,56 @@
+form, h2, p{
+	width: 500px;
+	margin-left: 300px;
+}
+
+#edit-form {
+	display: none;
+	width: 300px; /* Ширина формы */
+	padding: 20px; /* Отступы внутри формы */
+	border: 1px solid #ccc; /* Рамка формы */
+	border-radius: 5px; /* Скругленные углы */
+	background-color: #f2f2f2; /* Цвет фона формы */
+  }
+  
+  #edit-form h2 {
+	margin-top: 0; /* Убираем верхний отступ заголовка */
+	font-size: 1.2em; /* Размер шрифта заголовка */
+	color: #333; /* Цвет шрифта заголовка */
+  }
+  
+  #edit-form label {
+	display: block; /*  Располагаем  label  на отдельной строке */
+	margin-bottom: 5px; /* Отступ снизу  label */
+	font-weight: bold; /*  Жирный  шрифт  для  label */
+  }
+  
+  #edit-form input[type="text"],
+  #edit-form input[type="password"] {
+	width: 100%; /*  Поле  занимает  всю  ширину  формы */
+	padding: 8px; /*  Отступы  внутри  полей  ввода */
+	margin-bottom: 10px; /*  Отступ  снизу  полей  ввода */
+	border: 1px solid #ccc; /*  Рамка  полей  ввода */
+	border-radius: 3px; /*  Скругленные  углы  полей  ввода */
+  }
+  
+  #edit-form input[type="submit"],
+  #edit-form input[type="submit"] { /* Исправлен селектор для кнопки "Отмена" */
+	padding: 10px 20px; /*  Отступы  внутри  кнопки */
+	background-color: #4CAF50; /*  Цвет  фона  кнопки */
+	color: white; /*  Цвет  шрифта  кнопки */
+	border: none; /*  Убираем  рамку  кнопки */
+	border-radius: 3px; /*  Скругленные  углы  кнопки */
+	cursor: pointer; /*  Устанавливаем  курсор  указателя  при  наведении */
+  }
+  
+  #edit-form input[type="submit"]:hover {
+	background-color: #45a049; /*  Изменяем  цвет  при  наведении */
+  }
+  
+  #edit-form input[type="submit"]:nth-child(2) { /*  Стиль  для  второй  кнопки  */
+	background-color: #f44336; /*  Красный  цвет  для  "Отмены" */
+  }
+  
+  #edit-form input[type="submit"]:nth-child(2):hover {
+	background-color: #d32f2f; /*  Темнее  красный  при  наведении */
+  }
